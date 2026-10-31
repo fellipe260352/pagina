@@ -1,0 +1,330 @@
+
+   <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículo - Fellipe da Costa Salles</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #d4d6d9;
+    color: #3c3c3c;
+    padding: 35px 15px;
+}
+
+.curriculo {
+    max-width: 850px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 8px 30px rgba(0,0,0,.12);
+}
+
+/* CABEÇALHO */
+
+header {
+    background: #363a40;
+    color: #fff;
+    padding: 42px 48px;
+    border-bottom: 6px solid #92979e;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+}
+
+header h3 {
+    color: #d2d4d7;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 25px;
+    border-top: 1px solid #666b72;
+    padding-top: 17px;
+}
+
+.contato p {
+    color: #e0e1e3;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* CONTEÚDO */
+
+main {
+    padding: 38px 48px;
+}
+
+section {
+    margin-bottom: 29px;
+}
+
+h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: #41464d;
+    padding-bottom: 9px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #b9bdc2;
+}
+
+p {
+    font-size: 13.5px;
+    line-height: 1.8;
+    color: #55595e;
+    text-align: justify;
+}
+
+.item {
+    margin-bottom: 17px;
+}
+
+.item h3 {
+    font-size: 14px;
+    color: #363a40;
+    margin-bottom: 4px;
+}
+
+.item span {
+    font-size: 12px;
+    color: #777d84;
+}
+
+.item p {
+    margin-top: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    font-size: 13.5px;
+    color: #55595e;
+    margin-bottom: 7px;
+    line-height: 1.5;
+}
+
+/* DESTAQUES */
+
+.destaque {
+    background: #f0f1f2;
+    border-left: 4px solid #777e86;
+    padding: 17px 20px;
+}
+
+.conquista {
+    background: #f3f4f5;
+    padding: 16px 19px;
+    border: 1px solid #d9dbde;
+    margin-bottom: 12px;
+}
+
+.conquista h3 {
+    color: #3d4249;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background: #363a40;
+    color: #d0d2d5;
+    text-align: center;
+    padding: 17px;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 30px 23px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    .contato {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    main {
+        padding: 28px 23px;
+    }
+}
+
+/* IMPRESSÃO */
+
+@media print {
+    @page {
+        size: A4;
+        margin: 12mm;
+    }
+
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .curriculo {
+        box-shadow: none;
+        max-width: 100%;
+    }
+
+    header, footer {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    section {
+        break-inside: avoid;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="curriculo">
+
+<header>
+    <h1>FELLIPE DA COSTA SALLES</h1>
+
+    <h3>Estudante de Engenharia da Computação</h3>
+
+    <div class="contato">
+        <p><strong>Idade:</strong> 19 anos</p>
+        <p><strong>E-mail:</strong> lipesalles2007@gmail.com</p>
+        <p><strong>Endereço:</strong> Rua Marechal Rondon – Raiz</p>
+        <p><strong>CEP:</strong> 69068-080</p>
+        <p><strong>Localização:</strong> Manaus – Amazonas, Brasil</p>
+    </div>
+</header>
+
+<main>
+
+<section>
+    <h2>Perfil Profissional</h2>
+    <p>
+        Estudante de Engenharia da Computação na Faculdade Matias
+        Machline, com interesse em tecnologia, inovação e desenvolvimento
+        de soluções inteligentes. Possuo conhecimentos em ferramentas
+        do Microsoft Office, inglês intermediário em formação e
+        experiência acadêmica no desenvolvimento de projetos
+        tecnológicos. Busco oportunidades para ampliar meus
+        conhecimentos e desenvolver habilidades no mercado de trabalho.
+    </p>
+</section>
+
+<section>
+    <h2>Formação Acadêmica</h2>
+
+    <div class="item">
+        <h3>Engenharia da Computação</h3>
+        <span>Faculdade Matias Machline – Manaus/AM</span>
+        <p>Graduação em andamento.</p>
+    </div>
+
+    <div class="item">
+        <h3>Ensino Médio Completo</h3>
+        <span>Colégio Amazonense Dom Pedro II</span>
+        <p>Conclusão: 2025.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Conquistas Acadêmicas</h2>
+
+    <div class="conquista">
+        <h3>Menção Honrosa – Olimpíada Brasileira de Matemática</h3>
+        <p>
+            Reconhecimento pelo desempenho e dedicação na
+            Olimpíada Brasileira de Matemática.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Projetos Acadêmicos</h2>
+
+    <div class="destaque">
+        <div class="item">
+            <h3>Sistema de Tráfego Inteligente</h3>
+            <span>Faculdade Matias Machline | Em desenvolvimento</span>
+        </div>
+
+        <p>
+            Participação no desenvolvimento de um projeto acadêmico
+            voltado à criação de um Sistema de Tráfego Inteligente,
+            explorando soluções tecnológicas para mobilidade urbana,
+            organização e otimização do fluxo de veículos.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Idiomas</h2>
+
+    <div class="item">
+        <h3>Inglês – Intermediário</h3>
+        <span>ICBEU Manaus | Curso em andamento</span>
+    </div>
+</section>
+
+<section>
+    <h2>Conhecimentos em Informática</h2>
+
+    <ul>
+        <li>Informática Básica.</li>
+        <li>Microsoft Excel – Avançado.</li>
+        <li>Microsoft Word – Avançado.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Competências</h2>
+
+    <ul>
+        <li>Raciocínio lógico e matemático.</li>
+        <li>Interesse em tecnologia e inovação.</li>
+        <li>Aprendizado contínuo.</li>
+        <li>Desenvolvimento de projetos acadêmicos.</li>
+        <li>Conhecimento em ferramentas de produtividade.</li>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    FELLIPE DA COSTA SALLES | CURRÍCULO PROFISSIONAL
+</footer>
+
+</div>
+
+</body>
+</html>
+     
